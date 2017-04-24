@@ -12,3 +12,5 @@ for original in [encodes_with_pluses, encodes_with_slashes]:
     print('URL-safe encoding:', base64.urlsafe_b64encode(
         original.encode('utf-8')))
     print()
+
+print(base64.urlsafe_b64decode(b'lmptnpxsZg=='))
